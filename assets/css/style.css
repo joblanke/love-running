@@ -110,6 +110,22 @@ main{
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
 }
+#circle-cover-bg {
+    background: url('../images/reasons-image.webp') no-repeat top center/contain;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /*Makes the square a circle*/
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /*footer*/
 #social-networks {
@@ -184,6 +200,7 @@ main{
         margin: 5px 0;
     }
     
+  
     /*Hero*/
     #cover-text {
         width: 300px;
