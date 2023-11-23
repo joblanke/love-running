@@ -154,6 +154,14 @@ main{
     /*Override heading color set in general style*/
     color: #fafafa;
 }
+    /*Galley Page*/
+    #photos img {
+        width: 100%;
+        line-height: 1em;
+    }
+    #photos {
+        line-height: 0;
+    }
 
 /*footer*/
 #social-networks {
